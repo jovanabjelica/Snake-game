@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+  }
+  
+body { 
+    background-image: url("zmijica-dodatno/zmijice-uputstvo-pozadina.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#prviRed{
+    margin-top: 25px;
+}
+
+#drugiRed{
+    margin-top: 70px;
+}
+
+#velicina, #nivo1{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#naslov{
+    color: orange;
+    font-family: 'cursive', Brush Script Mt;
+    font-size: 50px;
+    margin-left: 125px;
+}
+
+#sadrzaj{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.navbar{
+    color: white;
+}
+
+.nivo{
+    margin-left: 115px;
+}
+
+
+
+
+

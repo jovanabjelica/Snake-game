@@ -1,0 +1,28 @@
+body{
+    margin-top: 130px;
+    background-color: rgb(38, 52, 69);
+}
+
+.tekst{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: wavy;
+    color: whitesmoke;
+}
+
+#naslov{
+    text-align: center;
+    text-decoration: wavy;
+    color: whitesmoke;
+}
+
+#tabela {
+    color : whitesmoke;
+    text-align: center;
+}
+
+#cetvrtiRed{
+    text-align: center;
+    padding-top: 35px;
+}
+

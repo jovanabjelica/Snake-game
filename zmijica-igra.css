@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(32, 52, 69);
+}
+
+table{
+    border: 1px solid;
+    border-color: white;
+}
+
+.svetlo{
+    background-color: rgb(38, 52, 69);
+}
+
+.tamno{
+    background-color: rgb(30, 40, 53);
+}
+
+.zmijica{
+    background-color: rgb(47, 140, 211);
+}
+
+#tabela{
+    width: 750px;
+    height: 750px;
+    margin-left: 290px;
+}
+
+#prviRed{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#pracenje{
+    color: white;
+    font-size: large;
+}
+

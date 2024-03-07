@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="zmijica-dodatno/Jquery_3.6.0.js"></script>
+    <script src="zmijica-dodatno/bootstrap.js"></script>
+    <link href="zmijica-dodatno/bootstrap.css" rel="stylesheet">
+    <script src="zmijica-uputstvo.js"></script>
+    <link rel="stylesheet" href="zmijica-uputstvo.css">
+</head>
+<body>
+    <div class="container" id="kontejner">
+        <div class="row" id = prviRed>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-7">
+                <div class="navbar navbar-expand-sm bg-outline-success">
+                    <div class="container-fluid">
+                        <div id="igraj">
+                            <form action="zmijica-igra.html">
+                                <button class="btn btn-success">Play</button>
+                            </form>
+                        </div>
+                        <div id="rezultat">
+                            <form action="zmijica-rezultati.html">
+                                <button class="btn btn-success">Show score</button>
+                            </form>
+                        </div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div class="nav-item dropdown-toggle bg-success rounded navbar" id="velicina" role="button" data-toggle="dropdown">
+                                    Table size
+                                </div>
+                                <div class="dropdown-menu" aria-labelledby="velicina">
+                                    <ul>
+                                        <li class="dropdown-item"> <button class="btn btn-outline-info" id="10">10x10</button></li>
+                                        <li class="dropdown-item"> <button class="btn btn-outline-info" id="15">15x15</button></li>
+                                        <li class="dropdown-item"> <button class="btn btn-outline-info" id="25">25x25</button></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="nav-item dropdown-toggle bg-success rounded navbar nivo" role="button" data-toggle="dropdown" id="nivo1">
+                                    Level speed
+                                </div>
+                                <div class="dropdown-menu nivo" aria-labelledby="nivo1">
+                                    <ul>
+                                        <li class="dropdown-item"> <button class="btn btn-outline-success" id="easy">Easy</button></li>
+                                        <li class="dropdown-item"> <button class="btn btn-outline-warning" id="medium">Medium</button></li>
+                                        <li class="dropdown-item"> <button class="btn btn-outline-danger" id="hard">Hard</button></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id = "drugiRed">
+            <div class="col-sm-6" id="uputstvo">
+                <div id="naslov">
+                    Become snake master
+                </div>
+                <div id="sadrzaj">
+                    There are only two rules you must follow when  playing: don't hit a wall and don't bite yourself.
+                    Crashing into a wall or youtself will end game immediately. Your score is calcualted based on the 
+                    number of squares you added to the snake. You win the game when there is no more room for your
+                    snake to grow! 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
